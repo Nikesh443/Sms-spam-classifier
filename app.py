@@ -50,7 +50,7 @@ result=model.predict(vector_input)[0]
 
 # Display
 if result == 1:
-    print('Spam')
+    st.header('Spam')
 else:
-    print('Not Spam')
+    st.header('Not Spam')
 
